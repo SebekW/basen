@@ -16,7 +16,7 @@
 <body th:object="${users}">
 <div th:replace="header :: header"></div>
 <div class="main-container container">
-    <div th:replace="/fragments/userFilter :: userFilter"></div>
+    <div th:replace="/userFilter :: userFilter"></div>
     <div class="panel panel-primary">
         <div class="panel-heading inscription-normal">Lista użytkowników
             <form class="form-inline" th:action="@{/users/view/add}" method="get">
