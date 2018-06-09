@@ -21,3 +21,11 @@
     font-weight: bold;
     font-size: 150%;
 }
+
+
+.cennik{
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+    width: 600px;
+}

@@ -11,14 +11,16 @@
     <link href="../static/css/core.css"
           th:href="@{/css/core.css}"
           rel="stylesheet" media="screen"/>
-    <script src="http://cdn.jsdelivr.net/webjars/jquery/2.2.1/jquery.min.js"
-            th:src="@{/webjars/jquery/2.2.1/jquery.min.js}"></script>
+    <script src="http://cdn.jsdelivr.net/webjars/jquery/3.2.1/jquery.min.js"
+            th:src="@{/webjars/jquery/3.2.1/jquery.min.js}"></script>
 </head>
 <body>
 <!-- Header -->
 <div th:replace="header :: header"></div>
 <div class="main-container container">
-    <img th:src="@{/images/pricing_final.png}"/>
+    <div class="row">
+        <img class="cennik" alt="Cennik basenu" th:src="@{/images/pricing_final.png}"/>
+    </div>
 </div>
 </body>
 </html>
