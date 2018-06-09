@@ -21,5 +21,18 @@ public class TestDataBaseInitializer implements ApplicationListener<ContextRefre
         }
         initializeUsers();
     }
+	
+	    private void initializeUsers() {
+        Users users = new Users();
+        Users users2 = new Users();
+        Address address = new Address().setCity("Lublin").setHomeNumber("22").setPostalCode("23-500").setStreet("Jaspisowa");
+        users.setEmail("test@example.com").setLastName("Łukasz").setName("Skórski").setPhone("532544462").setAddress(address).setPesel("323232323232");
+        users.setHasActiveTicket(true);
+        userRepository.save(users);
+        Address address2 = new Address().setCity("Ryki").setHomeNumber("66").setPostalCode("66-666").setStreet("Poznańska");
+        users2.setEmail("sebcio@gmail.com").setLastName("Wojewoda").setName("Sebastian").setPhone("666777666").setAddress(address2).setPesel("94949494949");
+        users2.setHasActiveTicket(false);
+        userRepository.save(users2);
+    }
 
 }
