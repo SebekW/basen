@@ -1,0 +1,23 @@
+.main-container {
+    padding-top: 130px;
+}
+
+.form-inline {
+    display: inline;
+}
+
+.inscription-lg {
+    font-weight: bold;
+    font-size: 250%;
+    text-align: center;
+}
+
+.inscription-lv {
+    font-weight: normal;
+    font-size: 100%;
+}
+
+.inscription-normal {
+    font-weight: bold;
+    font-size: 150%;
+}
