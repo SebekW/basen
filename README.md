@@ -1,12 +1,11 @@
-# users-crud
+#Projekt basen
 
-Used technology: 
+Pracownik basenu ma w swoim systemie 3 zakładki.
+Zakładkę z regulaminem.
+Zakładkę w której może dodawać klienta do bazy danych oraz edytować jego dane.
+Zakładkę na której 	widzi akutalny cennik basenu.
 
-Hibernate,
-Spring Boot,
-Spring Data JPA,
-Thymeleaf(template engine),
-H2,
-Maven
+Użyta techonologia: Hibernate, Spring Boot, Spring Data JPA, Thymeleaf(template engine), H2, Maven
+addres: localhost:8080/
 
-address: localhost:8080/
+
